@@ -42,31 +42,10 @@ Step 2: Install app dependencies
 npm install
 ```
 
-### Part 2: Create database (if not already exists)
+### Part 2: Add program code for getting and posting data (GET and POST-Request)
 #### Prerequisite
-1. MySQL is installed and running
-2. DataGrip (by Jetbrains) installed
-
-If one of these prerequisite are not met, then go to the missing lessons on 
-http://ict.bzzlab.ch -> Ihr Jahrgang wählen. 
-
-#### Steps
-If guestbookdb does not already exists then ...
-
-Step 1: Open Datagrip and connect to MySQL
-
-Step 2: Execute the SQL-Scripts in the directory *sql* in the given order 
-*guestbookdb-01.sql, guestbookdb-02.sql, guestbookdb-03.sql*.
-
-
-### Part 2: Add program code for getting data (GET-Request)
-#### Prerequisite
-1. MySQL is installed and running
-2. You've Webstrom (by Jetbrains) installed
-3. You've database guestbookdb installed
-
-If one of these prerequisite are not met, then go to the missing lessons on 
-http://ict.bzzlab.ch -> Ihr Jahrgang wählen. 
+>The server part (backend) of the guestbook application is completed and fully functional.
+When not, then complete the steps of the [backend-part](https://github.com/bzzlab/guestbook-mven-server#get-started-with-the-guestbook-application).
 
 #### Steps
 Step 1: Open the project in Webstorm
@@ -175,18 +154,5 @@ Step 2: Run application from Webstorm or from the console
 ```
 npm run run-client
 ```
-
-
-### Part 4: Check your results with the solution
-#### For Windows and MacOS
-Type these commands in your terminal or Windows-CMD
-
-```
-mkdir solution
-cd solution
-git clone https://github.com/bzzlab/guestbook-mven-server.git
-cd guestbook-mven-server
-```
-
 
 
