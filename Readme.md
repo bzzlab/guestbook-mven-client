@@ -1,4 +1,4 @@
-# Get started with the guestbook application
+# Get started with the guestbook client
 ### Introduction
 This guestbook application has been developed with the following technology-stack:
 #### Backend (guestbook-mven-server)
@@ -45,7 +45,7 @@ npm install
 ### Part 2: Add program code for getting and posting data (GET and POST-Request)
 #### Prerequisite
 >The server part (backend) of the guestbook application is completed and fully functional.
-When not, then complete the steps of the [backend-part](https://github.com/bzzlab/guestbook-mven-server#get-started-with-the-guestbook-application).
+When not, then complete the steps of the [guestbook server](https://github.com/bzzlab/guestbook-mven-server#get-started-with-the-guestbook-server).
 
 #### Steps
 Step 1: Open the project in Webstorm
